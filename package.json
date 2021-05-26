@@ -1,0 +1,21 @@
+{
+  "name": "b",
+  "version": "1.0.0",
+  "description": "",
+  "main": "nd.js",
+  "dependencies": {
+    "express": "^4.16.4",
+    "node-qiwi-api": "^1.1.1",
+    "os": "^0.1.1",
+    "os-uptime": "^2.0.2",
+    "prequest": "^1.0.0",
+    "vk-io": "^4.0.0-rc.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

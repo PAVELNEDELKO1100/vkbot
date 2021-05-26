@@ -1,0 +1,16 @@
+{
+	"group_url": "@public204713995", 
+	"bot": "@public204713995", 
+	"ver": "1.0",
+	"group": 204713995,
+	"coder": 376231311,
+	"number": 1,
+	"text": "&#13;",
+	"ban_topic": "",
+	"antiflood_time": 15000,
+	"antiflood_limit": 15,
+	"promo": {
+		"activ": 30,
+		"balance": 200000
+	}
+}
