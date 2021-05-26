@@ -1,1 +1,1 @@
-worker: node ng.js
+worker: node nd.js
