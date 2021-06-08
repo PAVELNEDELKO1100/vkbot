@@ -27,9 +27,9 @@ setInterval(function(){
 
 //--------------------------------------------------\\
 vk.setOptions({
-    token: '2373c20f57d561c896852e9f43791de99c327e5cf6adcbc645f3a6c5d23ca16a7526ba42dec7df6940b48', // токен группы
+    token: '8c51c676c17d3719cc2c4ae300f8a7c4b9f67b5e5893d4d239a27c253d52566eba1b9bad89ca9f70a1082', // токен группы
     apiMode: 'parallel',
-	pollingGroupId: 204713995 //ид группы
+	pollingGroupId: 204848302 //ид группы
 });
 //-----------------------------------------------------\\
 var ut = '1b156d637693e81a4284f5609a96bd104f33b32c8db5ccd52e41e88812252fae5856ab43963e090630fc0'; // TOKEN Страницы
@@ -43,7 +43,7 @@ vk.updates.use(async (message, next) => {
     message.text = message.payload.text;  
 
     if(Number(message.senderId) <= 0) return;
-	if(/\[public204713995\|(.*)\]/i.test(message.text)) message.text = message.text.replace(/\[public204713995\|(.*)\]/ig, '').trim();
+	if(/\[public204848302\|(.*)\]/i.test(message.text)) message.text = message.text.replace(/\[public204848302\|(.*)\]/ig, '').trim();
 
  
     if (!message.text) return;
